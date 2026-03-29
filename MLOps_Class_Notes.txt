@@ -449,9 +449,7 @@ Day-2 29th Mar. 2026
 				
 				- DVC 					==> Version Control/Track the Dataset to train the model
 				
-				- Python 
-					- Flask/Django 
-					
+				- Python 					
 					- Streamlit			==> Web Application Framework -> ML Project
 											- Web User Interface 
 											
@@ -487,3 +485,116 @@ Lab ::
 
 	- Create GitHub Account :::
 		https://github.com/
+	
+
+	- Create AWS Free Tier Account :::
+		https://aws.amazon.com/console/
+		
+		https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-creating.html
+		
+			-> Active Email_ID, Mobile_Number, Credit/Debit Card(Enabled with International Transaction)
+			-> PAN Number
+			
+			-> 12 Months -> 6 Months Free Tier 
+			
+	- DockerHub :::
+		https://hub.docker.com/
+		
+		
+
+
+####################
+Day-2 29th Mar. 2026
+####################		
+
+
+	- Version Control System using GIT
+		
+		- VCS is used to track the changes and version control the changes 
+		
+		
+	
+	- GIT :
+	
+		- Is an Open-Source Distributed VCS		
+		- Is used to track the changes and version control the changes 		
+		- Is used to perform Parallel Development using Branches
+	
+	
+
+	- Remote Server	==> github Server  --> Remote GIT Repository
+	
+		-> Azure Repository 
+		
+		-> Bit Bucket 
+		
+		-> Gitlab 
+	
+	- Local Machine 
+	
+		- git client to be installed in Local Machine 
+		
+		- git client act as an interface between local machine and remote git repository/server
+		
+		
+
+	Working with Git :::
+	
+		- Install Git Client on Local Machine.
+			# https://git-scm.com/install/
+			
+			# https://git-scm.com/install/windows
+			
+				--> Git Bash 			# For Linux Users ********
+				--> Git CMD 			# For Windows Powershell users
+				--> Git GUI 
+			
+			# https://git-scm.com/install/mac
+			
+			# https://git-scm.com/install/linux
+		
+		- git --version 	
+
+		
+	- Install Visual Studio Code 
+			# https://code.visualstudio.com/download
+			
+			
+	- Install MobaXterm/Putty 	==> SSH Agent for Windows Users Connect to Remote Server
+			# https://mobaxterm.mobatek.net/download-home-edition.html
+				# Choose Installer Edition 
+					# Download zip file 
+						# right click Extract the zip file, within the extracted folder select and run the exec
+		
+		
+		
+Next :::
+
+	GIT VCS 
+	
+	DVC 
+
+	
+
+				
+	
+				
+				
+					
+					
+				
+				
+		
+
+		
+		
+	
+
+
+
+
+
+
+
+
+	- How to Implement MLOps ???
