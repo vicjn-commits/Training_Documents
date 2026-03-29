@@ -1,0 +1,419 @@
+Edu_MLOps Certification Course
+
+Weekend(SAT&SUN) - 8:30PM IST
+
+
+####################
+Day-0 21st Mar. 2026
+####################
+
+Orientation: 21st Mar. 2026 - 8:30PM to 9:30 PM IST 
+
+
+
+Actual Session starts from 28th Mar. 2026
+
+	- Lab:
+	
+		AWS - Free Tier Account 
+		
+		Github 
+		
+		DockerHub
+		
+		Kubernetes -> Kubeadm / Minikube / K3s / Kind 
+		
+		AWS Sagemaker-AI
+		
+		AWS S3 
+		
+		AWS IAM 
+		
+		- EKS/ECS/ECR ==> Container Service!
+		
+		Azure: ACS/ACR/AKS 
+		GCP : GCE/GCR/GKE
+		
+		- Kubeadm Setup Multi-Node K8s Cluster.
+		
+		
+		MLOPs Tools Stack ::
+		
+			- Open-Source Tools 
+			
+			- AWS : 
+				-> AWS Sagemaker-AI
+				
+			- Azure ML 
+			
+			- GCP - Vertix-AI
+		
+####################
+Day-1 28th Mar. 2026
+####################
+
+	- MLOps Essentials :::
+	
+	- DevOps -> DevOps Process, DevOps Stages, DevOps Tools -> git,jenkin,docker,kubernetes
+	
+	- Lab 	: AWS Free Tier Account (p) 
+					- To Create the Lab Environments 
+						- EC2 Instance(VM)
+					- AWS Sagemaker-AI	(Managed Server)
+		
+			: github 
+			: DockerHub 
+			: VSCode 
+			
+			
+		- Open-Source MLOps and DevOps Tools 
+		
+		- AWS Sagemaker-AI	(Managed Server)
+		
+	- MLOps Essentials :::
+
+		SDLC, Process, AGILE, DevOps ==> MlOps
+		
+		
+	SDLC -> Software Development LifeCycle 
+	
+	
+	-> Software Applications :
+	
+		-> Desktop Applications
+		
+		-> Web Applications 
+		
+		-> Mobile Applications 
+		
+		-> Embedded Applications
+		
+		-> ML Models
+		
+	Phases of SDLC :
+	
+		-> Requirement Analysis
+		-> Design & Documentation
+		-> Code & Development
+		-> Testing 
+		-> Implement to Production
+		-> Maintain/Monitor
+		
+	- Waterfall Model :
+	
+		-> Top-Down Approach
+		-> Linear in fashion
+		-> It was actually used for Monolith Applications Architecture
+		
+		- Desktop Application :	Super-Market Billing System
+		
+			-> Functions/Modules :
+				- Inventory Management
+				- User Interface Design 
+				- Payment Module 
+					- CASH 
+					- CARD 
+					- ++ Online 
+					- ++ UPI
+				- Customer Database 
+	
+	Core Project: 
+	
+		-> Requirement Analysis			- 12 months
+		-> Design & Documentation
+		-> Code & Development				- 6 month
+		-> Testing 
+		-> Implement to Production
+		-> Maintain/Monitor		
+
+	Enhancement Project: 	
+					- ++ Online 
+					- ++ UPI
+	
+
+		-> Requirement Analysis			
+		-> Design & Documentation
+		-> Code & Development				
+		-> Testing 
+		-> Implement to Production
+		-> Maintain/Monitor	
+
+
+	-> AGILE Methodologies :::
+
+		- Desktop Application :	Super-Market Billing System
+		
+			-> Functions/Modules :
+				- Inventory Management
+				- User Interface Design 
+				- Payment Module 
+					- CASH 
+					- CARD 
+				- Customer Database 	
+	
+	Iteration 1: Inventory Management
+	
+		-> Requirement Analysis		
+		-> Design & Documentation
+		-> Code & Development		
+		-> Testing 
+		-> Implement to Production with proper approvals	
+	
+	Iteration 2: User Interface Design
+	
+		-> Requirement Analysis		
+		-> Design & Documentation
+		-> Code & Development		
+		-> Testing 
+		-> Implement to Production with proper approvals		
+
+	Iteration 'n': ++ Online 
+	
+		-> Requirement Analysis		
+		-> Design & Documentation
+		-> Code & Development		
+		-> Testing 
+		-> Implement to Production with proper approvals
+		
+		
+	
+	So, using AGILE Methodologies, 
+	
+		We can achieve: 
+		
+			- Continuous Development
+			- Continuous Integration 
+			- Continuous Testing
+			- Continuous Delivery 
+				- It is used to release the changes to Production Environment with manual approvals
+			
+		We cannot achieve:
+		
+			- Continuous Deployment
+				- It is used to release the changes to Production Environment without any manual approvals
+				
+				
+	- DevOps ::::
+	
+		What is DevOps ?
+		
+		DevOps is Software Development Strategy, which helps build the collaboration between teams like Development Team and Operations Team to achieve Continuous Development, Continuous Integration, Continuous Testing, Continuous Delivery, Continuous Deployment and Continuous Monitoring in a more automated fashion.
+
+		
+	- How to Implement DevOps ???
+	
+		- Teams: 
+		
+			- DevOps Team / MLOps(ML Projects) 		
+				- Infra-Structure Management Team 
+				- Application Development Team 
+				- Testing Team 
+				- Release Management Team 
+				- Production Support Team 
+				- Production Monitoring Team 
+				- IT Security Team 
+				
+				
+		- Environments: 
+		
+			- Non-Prod Environments 									Prod Environment
+			
+				- Dev Environment
+				
+				- Build Environment
+				
+				- Test Environments 
+				
+					- QA Environment
+					
+					- UAT Environment		---------------------->			- Production Servers(1,2,3,4,5)
+						MLApp_V1.0
+		
+		
+		- DevOps Stages :
+		
+			- Continuous Development :
+			
+				- Continuous Development is the capability of the Development Team to Continuous to develop the changes and integrate for further testing and implementation.
+				- It is used to improve the Developers' Productivity
+				
+				Role Developers:
+					- Create Source Code
+					
+				Developer :
+				
+					- Create Source Code 
+					- Manual Build, Create Artifacts (binaries - *.war/*.jar/*.exec,*.pkl)
+					- Perform manual unit test 
+					- Promote the changes to test environment 
+					- Notify the Testing Team - Thru Email 
+					
+				Using DevOps Approach: 
+
+					- Create Source Code 
+					- Save the Source Code in a Code Repository(Github)
+				
+				Automate:
+				
+					- Build, Create Artifacts (binaries - *.war/*.jar/*.exec,*.pkl)
+					- Perform unit test 
+					- Promote the changes to test environment 
+					- Notify the Testing Team - Thru Email 
+					
+			
+				Tools :
+				
+					- IDEs - Eclipse based IDEs - Pycharm, VS Code, Visual Studio  
+					- GIT, GitHub
+					
+			
+			- Continuous Integration :::
+			
+				- Continuous Integration is the capability of the Development Team to Continuously integrate the changes for further testing.	
+
+				Automate:
+				
+					- Build, Create Artifacts (binaries - *.war/*.jar/*.exec,*.pkl)
+					- Perform unit test 
+					- Promote the changes to test environment 
+					- Notify the Testing Team - Thru Email
+
+				Tools :
+					- IDEs - Eclipse based IDEs - Pycharm, VS Code, Visual Studio  
+					- GIT, GitHub
+					- Jenkins, Github-Actions, Az-Pipelines, gitlab-ci
+					- Docker, Kubernetes, Ansible
+					
+			
+			- Continuous Testing ::
+				- Continuous Testing is the capability of the Test Team to Continuously test the changes.
+				
+				Tools :
+					- Jenkins, Github-Actions, Az-Pipelines, gitlab-ci
+					- Selenium
+					
+			
+			
+			- Continuous Delivery / Deployment ::
+			
+				- Continuous Delivery 
+					- It is used to release the changes to Production Environment with manual approvals
+					- This leads to Application Downtime.
+
+					Eg.: 
+					Typical - Core Banking Application:
+					
+						Online Banking - 
+						
+							Downtime - Release Window 
+								- (4 - 6hrs)
+								
+								- Production 
+								
+								- (Fix / Revert)
+							
+							
+				- Continuous Deployment
+					- It is used to release the changes to Production Environment without any manual approvals
+					- This can be achieved only with the Micro-Service based Application Architecture
+					- We can implement the changes to Production without any downtime(ZERO-Downtime)
+
+					Eg.: 
+					- Netflix/Facebook/amazon ::		
+					
+					
+					
+				www.amazon.com ::
+				
+					Sign-Up 		--> Micro-Service1 -> Developer1 -> code,test,release to prod
+					Sign-In 		--> Micro-Service2
+					Search 
+					Add-to-cart
+					Place Order
+					Payment 
+					Confirm 
+					Track 
+			
+			- Application Architecture :
+			
+				- Monolith Application Architecture
+					- It is tightly coupled by default 
+					- All the dependencies are tightly coupled together and deployed a a whole appplication.
+					- With Monolith Application Architecture we can achieve only Continuous Delivery
+				
+				
+				- Micro-Service Based Application Architecture
+					- It is loosely Coupled Application Architecture
+					- Each function/Module is called a Micro-Service
+					- Each Micro-Service can be independently developed, test, and deployed to Production Environments
+					- With Micro-Service based Application Architecture we can achieve Continuous Deployment
+			
+			
+				Tools ::
+				
+					- Jenkins,Github-Actions,gitlab-ci 
+					- docker,kubernetes,Ansible
+					
+			
+			- Continuous Monitoring ::
+			
+				- To Ensure Business Continuity....
+			
+				Infra-Structure Monitoring Tools - Prometheus/Grafana/AWS Cloud watch/Dynatrace/Splunk/Nagios
+				
+					- CPU 	--> 85% 
+					
+					- Memory --> 85%
+				
+					5000 users - Infra-Structure Management -->  10 Servers 
+				
+							Auto-Scalling 
+				
+					-> 50000 users	==> ++ Servers
+					
+				Application Monitoring :: AppDynamics/DataDog 
+				
+					chatgpt : 
+					Chat-bot :
+					
+			
+			
+		- Infra-Structure Management :::
+		
+			IAC Tools - Infra-Structure As Code :
+		
+			- Resource Provisioning/Creation -->	Terraform,CloudFormation,Jenkins,github-actions
+			
+			- Resource Configurations 		 -->	Ansible,Chef,Puppet,CloudFormation,Jenkins,github-actions
+
+					
+				
+
+
+	- Tools :
+	
+		Open-Source DevOps Tools :::
+		
+			git,github,docker,kubernetes,ansible,terraform,prometheus,grafana,jenkins,github-actions
+		
+		
+		Managed Services ::: - Paid Service
+		
+			AWS 	-> CodeCommit,CodeBuild,CodeDeploy,CodePipeline
+						ECS,ECR,EKS
+						AWS-Sagemaker-AI
+						
+			
+			Azure 	-> Dedicated Azure DevOps Services - AzBoards,AzRepo,AzPipelines,AzTest,AzArtifact 
+						ACS,ACR,AKS
+						Azure AI 
+						
+			GCP 	-> DevOps Services
+						GCE,GCR,GKE
+		
+		
+		
+Next: 
+		
+	MLOps Stages :
+			
